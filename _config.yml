@@ -6,4 +6,7 @@ insta: glenn1715
 git: glennevans
 beh: glennevans1
 
-
+collections:
+  design:
+    output: true
+  
