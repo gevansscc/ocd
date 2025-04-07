@@ -7,9 +7,19 @@
     <title>{{ site.title }} | {{ page.title }}</title>
 </head>
 <body>
-   {% include header.html %}
+   <header>
+    {% include header.html %}
+   </header>
+   <aside class="sidebar"> 
    {% include sidebar.html %}
+    </aside>   
+    
+    <main>
     {{ content }}
+    </main>
+    
+    <footer>
     {% include footer.html %}
+    </footer>
 </body>
 </html>
