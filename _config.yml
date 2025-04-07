@@ -9,4 +9,5 @@ beh: glennevans1
 collections:
   design:
     output: true
+    permalink: /:collection/:path/
   
