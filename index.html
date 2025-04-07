@@ -5,3 +5,10 @@ description: "Welcome to my personal blog where I share my thoughts and experien
 author: "Your Name"
 date: 2023-10-01
 ---
+<ul>
+    
+{% for design in site.design  %}
+<li>{{ design.title }}  </li>
+{% endfor %}
+
+</ul>
